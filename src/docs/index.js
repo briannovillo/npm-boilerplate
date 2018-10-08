@@ -1,13 +1,12 @@
 import React from "react";
 import { render } from "react-dom";
-import MyComponent from "../../lib";
-import "./styles.css";
+import MAMFutbolContainer from "../../lib/containers/MAMFutbolContainer";
 
 function Demo() {
   return (
     <div>
       <h1>Demo with examples of the component</h1>
-      <MyComponent color="brown">Wow what a button</MyComponent>
+      <MAMFutbolContainer isMobile={true} mamId={'111705'} />
     </div>
   );
 }
